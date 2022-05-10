@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: rgba(59, 59, 59);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+}
+
+span {
+  font-weight: 200;
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.navigation a {
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  padding-left: 20px;
+  color: white;
+}
+.navigation a:hover {
+  color: rgb(129, 129, 129);
+}
+section {
+  padding-top: 200px;
+  text-align: center;
+}
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("linm7I.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+h1 {
+  color: rgb(0, 0, 0);
+
+  font-size: 50px;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(217, 213, 213);
+  width: 100%;
+  margin-top: 10px;
+}
+.main-btn {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-top: 30px;
+  transition: 0.7s ease;
+}
+.main-btn:hover {
+  background-color: rgb(48, 48, 48);
+  transform: scale(1.1);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: rgb(67, 65, 65);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.title {
+  padding-top: 100px;
+  background-color: #ffffff;
+}
+
+.headers {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid #fff; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.bx {
+  position: relative;
+  width: 250px;
+  height: 450px;
+  /* border: 1px solid #fff; */
+  margin: 10px;
+  border-radius: 20px;
+  padding-left: 20px;
+  transition: 0.5s ease;
+}
+.bx:hover {
+  transform: scale(1.1);
+}
+.bx:hover {
+  opacity: 0.7;
+}
+.bx img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.bx .content {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  /* background: green; */
+  bottom: 0;
+  border-radius: 0px 0px 20px 20px;
+  z-index: 1;
+}
+
+.bx .content::before {
+  position: absolute;
+  left: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(185, 185, 185, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 0px 0px 20px 20px;
+  z-index: -1;
+}
+.content h3 {
+  color: #fff;
+  padding: 5px 0px 0px 10px;
+  font-size: 17px;
+}
+
+.content p {
+  color: #fff;
+  padding: 0px 0px 5px 10px;
+  font-size: 13px;
+}
+
+.content h6 {
+  color: #fff;
+  padding: 0px 0px 5px 10px;
+  font-size: 13px;
+}
+.content h6 span {
+  color: rgb(0, 0, 0);
+  background: yellow;
+  padding: 2px 5px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.content h6 .bi {
+  color: yellow;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.bx a {
+  position: absolute;
+  bottom: 0;
+  left: 75px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 184, 184);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 1px;
+  transition: 0.5s ease;
+}
+.bx a:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+}
+.watch-card {
+}
+.series {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid #fff; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgb(83, 83, 83);
+  padding-top: 150px;
+}
+
+.footer {
+  background-color: rgb(83, 83, 83);
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.footer .social-icons a {
+  font-size: 1.7em;
+  color: #fff;
+}
+
+.title-series {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  background-color: rgb(83, 83, 83);
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-top: 150px;
+}
